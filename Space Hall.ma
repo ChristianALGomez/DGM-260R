@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: Space Hall.ma
-//Last modified: Thu, Feb 02, 2017 10:19:54 PM
+//Last modified: Thu, Feb 02, 2017 10:24:53 PM
 //Codeset: 1252
 requires maya "2017";
 currentUnit -l centimeter -a degree -t film;
@@ -13,13 +13,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "01580393-43A1-2A55-DCEF-F2B80A8C2CDF";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 7.8427885847647127 2.7343371514172752 2.1381777687464734 ;
-	setAttr ".r" -type "double3" -371.13835272617462 790.19999999951347 -2.3473565338399037e-015 ;
+	setAttr ".t" -type "double3" 6.0350302694340812 2.0768927616936712 2.9827296344432916 ;
+	setAttr ".r" -type "double3" -367.53835272616988 777.3999999995068 -7.3791925293893543e-016 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "EB75BDB0-4E6A-D19D-A37E-CD91CD06BD85";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 7.7536959768014748;
+	setAttr ".coi" 6.4060242860917693;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
